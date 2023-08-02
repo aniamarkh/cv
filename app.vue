@@ -12,11 +12,12 @@ useHead({
 
 <template>
   <div
-    class="w-192 mx-auto min-h-screen font-primary flex flex-col gap-5 p-7 bg-white text-black selection:bg-accent selection:text-white"
+    class="w-192 mx-auto min-h-screen font-primary flex flex-col gap-5 py-5 px-10 shadow-md bg-white text-black selection:bg-accent selection:text-white"
   >
     <HeaderSection />
-    <main>
+    <main class="flex flex-col gap-7">
       <AboutSection />
+      <SkillsSection />
     </main>
   </div>
 </template>

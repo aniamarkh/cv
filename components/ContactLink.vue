@@ -8,7 +8,7 @@
     <slot></slot>
     <span class="visually-hidden">{{ label }}</span>
     <div
-      class="bg-black scale-50 opacity-0 w-11 h-11 absolute rounded-full bottom-0 left-0 right-0 top-0 group-hover:animate-bounceIn group-hover:opacity-100 group-hover:scale-100"
+      class="bg-accent scale-50 opacity-0 w-11 h-11 absolute bottom-0 left-0 right-0 top-0 group-hover:animate-bounceIn group-hover:opacity-100 group-hover:scale-100"
     ></div>
   </a>
 </template>

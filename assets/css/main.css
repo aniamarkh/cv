@@ -8,6 +8,10 @@
   .contacts-icon {
     @apply text-current fill-current w-7 h-7 z-10;
   }
+
+  .title {
+    @apply font-bold bg-accent w-fit p-2;
+  }
 }
 
 html {
