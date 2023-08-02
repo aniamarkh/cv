@@ -1,6 +1,10 @@
 <template>
-  <div class="w-192 flex flex-row gap-7 items-center">
-    <div class="photo flex-shrink-0 bg-accent w-48 h-48 drop-shadow-xl"></div>
+  <div id="about" class="w-192 flex flex-row gap-7 items-center">
+    <img
+      src="assets/me.png"
+      alt="My photo"
+      class="shadow-md grayscale transition-all hover:grayscale-0 flex-shrink-0 w-48 h-48"
+    />
     <div class="flex flex-col gap-2">
       <h1 class="font-bold w-fit p-2 text-3xl bg-accent">Hi! I'm Anna</h1>
       <p class="font-bold text-xl">A frontend developer</p>
@@ -16,17 +20,3 @@
     </div>
   </div>
 </template>
-
-<style scoped>
-.photo {
-  background-image: url('assets/me.png');
-  background-size: 130%;
-  background-position: center;
-  filter: grayscale(100%);
-  transition: all 0.3s ease-in-out;
-}
-
-.photo:hover {
-  filter: none;
-}
-</style>

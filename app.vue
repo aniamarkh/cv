@@ -27,6 +27,7 @@ useHead({
           <JobSection />
         </div>
       </div>
+      <PortfolioSection />
     </main>
   </div>
 </template>

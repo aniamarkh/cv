@@ -12,6 +12,10 @@
   .title {
     @apply bg-accent font-bold w-fit p-1 text-base mb-2 inline-flex gap-2;
   }
+
+  .screenshot {
+    @apply shadow-md grayscale bg-cover bg-no-repeat w-full h-56 group-hover:grayscale-0 transition-all;
+  }
 }
 
 html {

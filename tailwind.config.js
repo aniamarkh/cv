@@ -34,6 +34,9 @@ module.exports = {
       animation: {
         bounceIn: 'bounceIn 0.5s ease-in-out',
       },
+      backgroundSize: {
+        130: '130%',
+      },
     },
   },
 };
