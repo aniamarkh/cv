@@ -21,7 +21,7 @@ module.exports = {
     extend: {
       width: {
         192: '48rem',
-        lg: '64rem',
+        lg: '56rem',
       },
       keyframes: {
         bounceIn: {

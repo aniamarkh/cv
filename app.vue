@@ -4,7 +4,7 @@ useHead({
   link: [
     {
       rel: 'stylesheet',
-      href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0',
+      href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0',
     },
   ],
 });
@@ -12,12 +12,21 @@ useHead({
 
 <template>
   <div
-    class="w-192 mx-auto min-h-screen font-primary flex flex-col gap-5 py-5 px-10 shadow-md bg-white text-black selection:bg-accent selection:text-white"
+    class="w-lg mx-auto min-h-screen font-primary flex flex-col gap-6 py-5 px-10 bg-white text-black selection:bg-accent selection:text-white"
   >
     <HeaderSection />
-    <main class="flex flex-col gap-7">
+    <main class="flex flex-col gap-10">
       <AboutSection />
-      <SkillsSection />
+      <div class="grid grid-cols-3 gap-3">
+        <div class="flex flex-col gap-4 col-span-1">
+          <SkillsSection />
+          <LangsSection />
+        </div>
+        <div class="flex flex-col gap-4 col-span-2">
+          <EducationSection />
+          <JobSection />
+        </div>
+      </div>
     </main>
   </div>
 </template>
