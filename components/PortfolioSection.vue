@@ -1,13 +1,6 @@
 <script setup lang="ts">
 const portfolioItems = [
   {
-    title: "'Other bookmarks' Manager",
-    desc: 'Chrome Extension, Vue 3 & TS, drag&drop, custom theme',
-    repo: 'https://github.com/aniamarkh/bookmarks',
-    deploy: 'https://chrome.google.com/webstore/detail/kartotek/hcinbgecljcibhpfpjibkodifeaanjep',
-    screenshot: 'bookmarks.png',
-  },
-  {
     title: 'Positivus Landing',
     desc: 'Vue 3, SCSS, pixel-perfect, accessible and responsive',
     repo: 'https://github.com/aniamarkh/positivus-landing',
@@ -29,6 +22,13 @@ const portfolioItems = [
     screenshot: 'kanban.png',
   },
   {
+    title: "'Other bookmarks' Manager",
+    desc: 'Chrome Extension, Vue 3 & TS, drag&drop, custom theme',
+    repo: 'https://github.com/aniamarkh/bookmarks',
+    deploy: 'https://chrome.google.com/webstore/detail/kartotek/hcinbgecljcibhpfpjibkodifeaanjep',
+    screenshot: 'bookmarks.png',
+  },
+  {
     title: 'Kettle Control Station',
     desc: "Vue 3 & TS, Node.js, SCSS, Websocket, password is 'porol' ;)",
     repo: 'https://github.com/aniamarkh/kettle-station',
@@ -37,7 +37,7 @@ const portfolioItems = [
   },
   {
     title: 'RS Lang',
-    desc: 'RS School course final team-project, built with TS and just CSS',
+    desc: 'RS School course final team-project, built with TS',
     repo: 'https://github.com/aniamarkh/rslang',
     deploy: 'https://rslang-aniamarkh.vercel.app/',
     screenshot: 'lang.png',

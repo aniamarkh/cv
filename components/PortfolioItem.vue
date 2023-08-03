@@ -18,7 +18,7 @@ const openInNewTab = () => {
     @click="openInNewTab"
   >
     <div class="screenshot" :style="screenshot"></div>
-    <h2 class="text-lg font-bold">{{ title }}</h2>
+    <h2 class="mt-2 text-lg font-bold">{{ title }}</h2>
     <p>{{ desc }}</p>
     <div class="flex flex-row gap-5 mt-3">
       <a

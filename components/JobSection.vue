@@ -8,7 +8,7 @@
       <h2 class="font-bold">MJML email developer</h2>
       <h3 class="bg-grey text-sm w-fit">Kryptex, part-time</h3>
       <p class="text-sm text-justify">
-        Translated Figma designs into pixel-perfect, responsive email templates using MJML.
+        Develope pixel-perfect and responsive email templates from Figma designs using MJML
       </p>
     </div>
   </div>
