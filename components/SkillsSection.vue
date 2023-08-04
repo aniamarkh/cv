@@ -1,5 +1,27 @@
 <script setup lang="ts">
 const showMore: Ref<boolean> = ref(false);
+const skills = [
+  { name: 'HTML', isPrimary: true, isHidden: false },
+  { name: 'CSS', isPrimary: true, isHidden: false },
+  { name: 'JS', isPrimary: true, isHidden: false },
+  { name: 'TS', isPrimary: true, isHidden: false },
+  { name: 'Vue.js', isPrimary: true, isHidden: false },
+  { name: 'Git', isPrimary: true, isHidden: false },
+  { name: 'Tailwind', isPrimary: false, isHidden: false },
+  { name: 'SASS', isPrimary: false, isHidden: false },
+  { name: 'BEM', isPrimary: false, isHidden: false },
+  { name: 'Nuxt.js', isPrimary: false, isHidden: false },
+  { name: 'Pinia, Vuex', isPrimary: false, isHidden: false },
+  { name: 'Vitest', isPrimary: false, isHidden: false },
+  { name: 'Chrome Extensions', isPrimary: false, isHidden: false },
+  { name: 'ECharts, Chart.js', isPrimary: false, isHidden: true },
+  { name: 'MJML', isPrimary: false, isHidden: true },
+  { name: 'Basic proficiency in React', isPrimary: false, isHidden: true },
+  { name: 'A11y', isPrimary: false, isHidden: true },
+  { name: 'Responsive and adaptive Web Design', isPrimary: false, isHidden: true },
+  { name: 'Pixel Perfect Design', isPrimary: false, isHidden: true },
+  { name: 'REST API, WebSocket', isPrimary: false, isHidden: true },
+];
 </script>
 
 <template>
@@ -10,26 +32,14 @@ const showMore: Ref<boolean> = ref(false);
     </h1>
     <Transition>
       <ul class="flex flex-row flex-wrap gap-x-4 gap-y-2">
-        <li class="primary-skill">HTML</li>
-        <li class="primary-skill">CSS</li>
-        <li class="primary-skill">JS</li>
-        <li class="primary-skill">TS</li>
-        <li class="primary-skill">Vue.js</li>
-        <li class="primary-skill">Git</li>
-        <li class="skill font-bold">Tailwind</li>
-        <li class="skill font-bold">SASS</li>
-        <li class="skill font-bold">BEM</li>
-        <li class="skill font-bold">Nuxt.js</li>
-        <li class="skill">Pinia, Vuex</li>
-        <li class="skill">Vitest</li>
-        <li class="skill">Chrome Extensions</li>
-        <li v-if="showMore" class="skill w-fit">ECharts, Chart.js</li>
-        <li v-if="showMore" class="skill">MJML</li>
-        <li v-if="showMore" class="skill">Basic proficiency in <strong>React</strong></li>
-        <li v-if="showMore" class="skill">A11y</li>
-        <li v-if="showMore" class="skill">Responsive and adaptive Web Design</li>
-        <li v-if="showMore" class="skill">Pixel Perfect Design</li>
-        <li v-if="showMore" class="skill">REST API, WebSocket</li>
+        <li
+          v-for="(skill, index) in skills"
+          v-show="!skill.isHidden || showMore"
+          :key="index"
+          :class="skill.isPrimary ? 'primary-skill' : 'skill'"
+        >
+          {{ skill.name }}
+        </li>
         <button class="text-xs hover:text-accent transition-all" @click="showMore = !showMore">
           {{ showMore ? 'Show less...' : 'Show more...' }}
         </button>
