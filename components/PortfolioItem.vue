@@ -10,7 +10,7 @@ defineProps<{
 
 <template>
   <div
-    class="group cursor-pointer flex flex-col gap-1 w-full p-5 border-solid border border-black hover:bg-accent hover:border-accent dark:border-grey dark:hover:text-black dark:hover:border-accent transition-all duration-300"
+    class="group flex flex-col gap-1 w-full p-5 border-solid border border-black hover:scale-105 hover:bg-accent hover:border-accent dark:border-grey dark:hover:text-black dark:hover:border-accent transition-all duration-300"
   >
     <div class="screenshot" :style="screenshot"></div>
     <h2 class="mt-2 text-lg font-bold">{{ title }}</h2>

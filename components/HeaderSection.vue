@@ -3,14 +3,14 @@
     <nav>
       <ul class="flex flex-row items-center gap-3 [&>*]:relative [&>*]:overflow-hidden">
         <li class="nav-item">
-          <a class="relative z-20 font-bold p-3" href="#about">About me</a>
+          <a class="relative z-20 font-bold" href="#about">About me</a>
         </li>
 
         <li class="nav-item">
-          <a class="relative z-20 p-3" href="#portfolio">Portfolio</a>
+          <a class="relative z-20" href="#portfolio">Portfolio</a>
         </li>
         <li
-          class="cursor-pointer ml-auto border-solid border border-black hover:bg-accent hover:text-white hover:border-accent transition-all duration-300 dark:border-grey dark:hover:border-accent dark:hover:text-black"
+          class="cursor-pointer ml-auto border-solid border border-black hover:bg-accent hover:text-white hover:border-accent transition-all dark:border-grey dark:hover:border-accent dark:hover:text-black"
         >
           <a class="inline-flex items-center gap-2 p-2">
             Download resume

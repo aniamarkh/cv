@@ -1,5 +1,5 @@
 <template>
-  <div class="w-192 flex flex-row gap-7 items-center">
+  <div class="flex flex-row gap-10 items-center py-4">
     <img
       src="assets/me.png"
       alt="My photo"
