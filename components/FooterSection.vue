@@ -1,5 +1,7 @@
 <template>
-  <footer class="bg-accent w-full h-14 flex flex-row items-center justify-between p-5">
+  <footer
+    class="bg-accent w-full h-14 flex flex-row items-center justify-between p-5 dark:text-black"
+  >
     <a
       target="_blank"
       href="https://github.com/aniamarkh"

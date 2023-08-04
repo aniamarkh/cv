@@ -10,7 +10,7 @@
   }
 
   .title {
-    @apply bg-accent font-bold w-fit p-1 text-base mb-2 inline-flex gap-2;
+    @apply bg-accent font-bold w-fit p-1 text-base mb-2 inline-flex gap-2 dark:text-black;
   }
 
   .screenshot {
@@ -18,11 +18,22 @@
   }
 
   .text-link {
-    @apply font-bold inline-flex hover:text-white transition-all;
+    @apply font-bold inline-flex items-center hover:text-white gap-2;
+  }
+
+  .primary-skill {
+    @apply bg-accent font-bold dark:text-black px-1;
+  }
+
+  .skill {
+    @apply bg-grey dark:bg-black;
   }
 }
 
 html {
   scroll-behavior: smooth;
-  @apply bg-grey;
+}
+
+body {
+  @apply bg-grey dark:bg-black;
 }

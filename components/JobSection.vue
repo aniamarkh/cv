@@ -6,7 +6,7 @@
     </h1>
     <div class="flex flex-col gap-1">
       <h2 class="font-bold">MJML email developer</h2>
-      <h3 class="bg-grey text-sm w-fit">Kryptex, part-time</h3>
+      <h3 class="bg-grey dark:bg-black dark:font-bold text-sm w-fit">Kryptex, part-time</h3>
       <p class="text-sm text-justify">
         Develope pixel-perfect and responsive email templates from Figma designs using MJML
       </p>

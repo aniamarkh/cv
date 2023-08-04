@@ -13,7 +13,7 @@ useHead({
 <template>
   <div
     id="about"
-    class="w-lg mx-auto min-h-screen font-primary flex flex-col gap-6 bg-white text-black selection:bg-accent selection:text-white"
+    class="w-lg mx-auto min-h-screen font-primary flex flex-col gap-6 bg-white text-black selection:bg-accent selection:text-white dark:bg-darkgrey dark:text-grey"
   >
     <HeaderSection />
     <main class="flex flex-col gap-10 px-7">

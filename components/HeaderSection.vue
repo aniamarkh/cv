@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 z-20 px-5 py-2 bg-white">
+  <header class="sticky top-0 z-20 px-5 py-2 bg-white dark:bg-darkgrey">
     <nav>
       <ul class="flex flex-row items-center gap-3 [&>*]:relative [&>*]:overflow-hidden">
         <li class="nav-item">
@@ -10,7 +10,7 @@
           <a class="relative z-20 p-3" href="#portfolio">Portfolio</a>
         </li>
         <li
-          class="cursor-pointer ml-auto border-solid border border-black hover:bg-accent hover:text-white hover:border-accent transition-all duration-300"
+          class="cursor-pointer ml-auto border-solid border border-black hover:bg-accent hover:text-white hover:border-accent transition-all duration-300 dark:border-grey dark:hover:border-accent dark:hover:text-black"
         >
           <a class="inline-flex items-center gap-2 p-2">
             Download resume

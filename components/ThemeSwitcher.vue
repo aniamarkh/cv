@@ -12,7 +12,7 @@ const switchTheme = () => {
     @click="switchTheme"
   >
     <span aria-label="switch to dark mode" class="material-symbols-outlined">
-      {{ $colorMode.value === 'light' ? 'light_mode' : 'dark_mode' }}
+      {{ $colorMode.value === 'dark' ? 'light_mode' : 'dark_mode' }}
     </span>
   </button>
 </template>
