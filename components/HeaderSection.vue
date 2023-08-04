@@ -1,15 +1,24 @@
 <template>
-  <header>
+  <header class="sticky top-0 z-20 px-5 py-2 bg-white">
     <nav>
-      <ul class="flex flex-row gap-5 [&>*]:relative [&>*]:overflow-hidden">
-        <li>
-          <a class="relative z-10" href="#me">About</a>
+      <ul class="flex flex-row items-center gap-3 [&>*]:relative [&>*]:overflow-hidden">
+        <li class="nav-item">
+          <a class="relative z-20 font-bold p-3" href="#about">About me</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="relative z-20 p-3" href="#portfolio">Portfolio</a>
+        </li>
+        <li
+          class="cursor-pointer ml-auto border-solid border border-black hover:bg-accent hover:text-white hover:border-accent transition-all duration-300"
+        >
+          <a class="inline-flex items-center gap-2 p-2">
+            Download resume
+            <span aria-hidden="true" class="material-symbols-outlined"> download </span>
+          </a>
         </li>
         <li>
-          <a class="relative z-10" href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-          <a class="relative z-10" href="#resume">Printable resume</a>
+          <ThemeSwitcher />
         </li>
       </ul>
     </nav>
@@ -17,13 +26,13 @@
 </template>
 
 <style scoped>
-li::after {
+.nav-item::after {
   z-index: 0;
   content: '';
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 25px;
+  height: 100%;
   bottom: 0;
   left: 0;
   background-color: #ec9fd6;
@@ -31,8 +40,21 @@ li::after {
   transition: transform 0.3s ease-in-out;
 }
 
-li:hover::after {
+.nav-item:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.slide-up-enter-active,
+.slide-up-leave-active {
+  transition: all 0.25s ease-out;
+}
+
+.slide-up-enter-from {
+  opacity: 0;
+}
+
+.slide-up-leave-to {
+  opacity: 0;
 }
 </style>

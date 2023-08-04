@@ -1,5 +1,5 @@
 <template>
-  <div id="about" class="w-192 flex flex-row gap-7 items-center">
+  <div class="w-192 flex flex-row gap-7 items-center">
     <img
       src="assets/me.png"
       alt="My photo"
