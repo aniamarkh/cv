@@ -7,7 +7,7 @@
       <h2 class="font-bold">RS School</h2>
       <h3 class="flex flex-col">
         <a
-          class="bg-grey dark:bg-black dark:font-bold text-sm w-fit"
+          class="bg-lightgrey dark:bg-mediumgrey dark:font-bold text-sm w-fit"
           href="https://app.rs.school/certificate/06l46hq5"
           target="_blank"
           >JavaScript/Front-end Course, 2022</a
@@ -21,7 +21,7 @@
       <h2 class="font-bold">
         St Petersburg State University of Architecture and Civil Engineering
       </h2>
-      <h3 class="bg-grey dark:bg-black dark:font-bold text-sm w-fit">
+      <h3 class="bg-lightgrey dark:bg-mediumgrey dark:font-bold text-sm w-fit">
         Bachelor's degree in Civil Engineering, 2014-2018
       </h3>
       <p class="text-sm text-justify">

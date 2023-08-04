@@ -1,7 +1,7 @@
 <template>
   <a
     :href="href"
-    class="group w-11 h-11 grid place-items-center relative text-black hover:text-white dark:text-grey dark:hover:text-black ease-in-out duration-300"
+    class="group w-11 h-11 grid place-items-center relative text-black hover:text-white dark:text-lightgrey dark:hover:text-black ease-in-out duration-300"
     target="_blank"
     aria-hidden="true"
   >

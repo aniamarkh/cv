@@ -11,10 +11,12 @@ module.exports = {
     },
     colors: {
       current: 'currentColor',
-      grey: '#F1F1F1',
       white: '#FEFEFE',
       black: '#121212',
-      darkgrey: '#1f1f1f',
+      lightgrey: '#F1F1F1',
+      grey: '#2b2b2b',
+      mediumgrey: '#575757',
+      darkgrey: '#383838',
       accent: '#EC9FD6',
     },
     extend: {
