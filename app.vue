@@ -12,10 +12,11 @@ useHead({
 
 <template>
   <div
-    class="w-lg mx-auto min-h-screen font-primary flex flex-col gap-6 py-5 px-10 bg-white text-black selection:bg-accent selection:text-white"
+    id="about"
+    class="w-lg mx-auto min-h-screen font-primary flex flex-col gap-6 bg-white text-black selection:bg-accent selection:text-white"
   >
     <HeaderSection />
-    <main class="flex flex-col gap-10">
+    <main class="flex flex-col gap-10 px-7">
       <AboutSection />
       <div class="grid grid-cols-3 gap-3">
         <div class="flex flex-col gap-4 col-span-1">
@@ -29,5 +30,6 @@ useHead({
       </div>
       <PortfolioSection />
     </main>
+    <FooterSection />
   </div>
 </template>
