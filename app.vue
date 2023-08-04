@@ -18,7 +18,7 @@ useHead({
     <HeaderSection />
     <main class="flex flex-col gap-10 px-7">
       <AboutSection />
-      <div class="grid grid-cols-3 md:grid-cols-1 md:max-w-lg gap-4 md:gap-10">
+      <div class="grid grid-cols-3 md:grid-cols-1 gap-4 md:gap-10 md:max-w-lg">
         <div class="flex flex-col gap-4 col-span-1 md:col-span-2">
           <SkillsSection />
           <LangsSection />
