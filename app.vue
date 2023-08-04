@@ -13,19 +13,19 @@ useHead({
 <template>
   <div
     id="about"
-    class="w-lg mx-auto min-h-screen font-primary flex flex-col gap-6 bg-white text-black selection:bg-accent selection:text-white dark:bg-darkgrey dark:text-grey transition-all duration-300"
+    class="md:w-full w-lg mx-auto min-h-screen font-primary flex flex-col gap-6 bg-white text-black selection:bg-accent selection:text-white dark:bg-darkgrey dark:text-grey transition-all duration-300"
   >
     <HeaderSection />
     <main class="flex flex-col gap-10 px-7">
       <AboutSection />
-      <div class="grid grid-cols-3 gap-3">
-        <div class="flex flex-col gap-4 col-span-1">
+      <div class="grid grid-cols-3 md:grid-cols-1 md:max-w-lg gap-4 md:gap-10">
+        <div class="flex flex-col gap-4 col-span-1 md:col-span-2">
           <SkillsSection />
           <LangsSection />
         </div>
         <div class="flex flex-col gap-4 col-span-2">
-          <EducationSection />
           <JobSection />
+          <EducationSection />
         </div>
       </div>
       <PortfolioSection />

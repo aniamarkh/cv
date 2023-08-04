@@ -6,10 +6,8 @@ module.exports = {
       primary: ['Roboto Mono'],
     },
     screens: {
-      sm: '640px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
+      md: { max: '910px' },
+      sm: { max: '575px' },
     },
     colors: {
       current: 'currentColor',

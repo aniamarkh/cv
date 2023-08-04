@@ -48,10 +48,10 @@ const portfolioItems = [
 <template>
   <div id="portfolio" class="flex flex-col gap-2">
     <h1 class="title text-xl mb-5">
-      <span class="material-symbols-outlined text-base" aria-hidden="true"> construction </span
+      <span class="material-symbols-outlined text-xl" aria-hidden="true"> construction </span
       >Portfolio
     </h1>
-    <div class="grid grid-cols-2 gap-6">
+    <div class="grid grid-cols-2 md:grid-cols-1 gap-6">
       <PortfolioItem
         v-for="(item, index) of portfolioItems"
         :key="index"
@@ -59,7 +59,7 @@ const portfolioItems = [
         :desc="item.desc"
         :repo="item.repo"
         :deploy="item.deploy"
-        :screenshot="`background-image: url('../assets/${item.screenshot}')`"
+        :screenshot="`../assets/${item.screenshot}`"
       />
     </div>
   </div>

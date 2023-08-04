@@ -14,11 +14,11 @@
   }
 
   .screenshot {
-    @apply shadow-md grayscale bg-cover bg-no-repeat w-full h-56 group-hover:grayscale-0 transition-all;
+    @apply shadow-md grayscale w-full group-hover:grayscale-0 transition-all;
   }
 
   .text-link {
-    @apply font-bold inline-flex items-center hover:text-white gap-2;
+    @apply font-bold inline-flex items-center hover:text-white gap-2 sm:gap-1;
   }
 
   .primary-skill {
@@ -32,6 +32,7 @@
 
 html {
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body {

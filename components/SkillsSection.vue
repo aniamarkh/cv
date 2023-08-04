@@ -25,10 +25,10 @@ const skills = [
 </script>
 
 <template>
-  <div class="flex flex-col gap-1">
-    <h1 class="title">
-      <span class="material-symbols-outlined text-base" aria-hidden="true"> construction </span
-      >Technologies:
+  <div class="flex flex-col gap-3">
+    <h1 class="title text-xl">
+      <span class="material-symbols-outlined text-xl" aria-hidden="true"> construction </span>
+      My skills:
     </h1>
     <Transition>
       <ul class="flex flex-row flex-wrap gap-x-4 gap-y-2">

@@ -1,15 +1,15 @@
 <template>
   <footer
-    class="bg-accent w-full h-14 flex flex-row items-center justify-between p-5 dark:text-black"
+    class="bg-accent w-full h-14 md:h-full flex flex-row sm:flex-col-reverse sm:gap-2 items-center justify-between p-5 md:p-2 dark:text-black"
   >
     <a
       target="_blank"
       href="https://github.com/aniamarkh"
-      class="font-bold hover:text-white transition-all"
+      class="font-bold text-sm hover:text-white transition-all"
       >Anna Marchenko, 2023</a
     >
-    <div class="flex flex-row gap-4 justify-center items-center text-sm">
-      <p>Built with Nuxt 3 & Tailwind</p>
+    <div class="flex flex-row gap-4 justify-center items-center text-sm md:flex-col md:gap-1">
+      <p class="whitespace-nowrap">Built with Nuxt 3 & Tailwind</p>
       <a class="text-link items-center" target="_blank" href="https://github.com/aniamarkh/cv">
         <svg class="contacts-icon" viewBox="0 0 120 120" aria-hidden="true">
           <path
