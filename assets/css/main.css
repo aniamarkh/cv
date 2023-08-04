@@ -16,6 +16,10 @@
   .screenshot {
     @apply shadow-md grayscale bg-cover bg-no-repeat w-full h-56 group-hover:grayscale-0 transition-all;
   }
+
+  .text-link {
+    @apply font-bold inline-flex hover:text-white transition-all;
+  }
 }
 
 html {

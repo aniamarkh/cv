@@ -6,7 +6,10 @@
     <div class="flex flex-col gap-1">
       <h2 class="font-bold">RS School</h2>
       <h3 class="flex flex-col">
-        <a class="bg-grey text-sm w-fit" href="https://rs.school/js/" target="_blank"
+        <a
+          class="bg-grey text-sm w-fit"
+          href="https://app.rs.school/certificate/06l46hq5"
+          target="_blank"
           >JavaScript/Front-end Course, 2022</a
         >
       </h3>
