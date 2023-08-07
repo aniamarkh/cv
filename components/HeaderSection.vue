@@ -1,16 +1,68 @@
+<script setup lang="ts">
+const isNavOpen = ref(false);
+const navItems = [
+  {
+    title: 'About me',
+    href: '#about',
+    isHiddenOnDesktop: false,
+  },
+  {
+    title: 'Skills',
+    href: '#skills',
+    isHiddenOnDesktop: true,
+  },
+  {
+    title: 'Experience',
+    href: '#experience',
+    isHiddenOnDesktop: true,
+  },
+  {
+    title: 'Portfolio',
+    href: '#portfolio',
+    isHiddenOnDesktop: false,
+  },
+];
+
+const toggleMobileNav = () => {
+  isNavOpen.value = !isNavOpen.value;
+  isNavOpen.value
+    ? (document.documentElement.style.overflowY = 'hidden')
+    : (document.documentElement.style.overflowY = '');
+};
+
+const mobileNavStyle = computed(() => {
+  return isNavOpen.value ? 'right: 0;' : 'right: -590px;';
+});
+
+const checkScreen = () => {
+  if (isNavOpen.value && window.innerWidth > 575) {
+    toggleMobileNav();
+  }
+};
+
+onMounted(() => {
+  window.addEventListener('resize', checkScreen);
+  checkScreen();
+});
+</script>
+
 <template>
-  <header class="sticky top-0 z-20 px-5 py-2 bg-white dark:bg-darkgrey">
+  <header class="sticky h-14 top-0 z-20 px-5 py-2 bg-white dark:bg-darkgrey sm:h-0 sm:py-0">
     <nav>
-      <ul class="flex flex-row items-center gap-3 [&>*]:relative [&>*]:overflow-hidden">
-        <li class="nav-item">
-          <a class="relative z-20 font-bold" href="#about">About me</a>
+      <NavButton :is-nav-open="isNavOpen" @toggle="toggleMobileNav" />
+      <ul id="menu" class="desktop-nav sm:mobile-nav" :style="mobileNavStyle">
+        <li
+          v-for="(item, index) in navItems"
+          :key="index"
+          class="nav-item sm:hover:text-white sm:block"
+          :class="{ hidden: item.isHiddenOnDesktop }"
+          @click="isNavOpen && toggleMobileNav()"
+        >
+          <a class="nav-link" :href="item.href">{{ item.title }}</a>
         </li>
 
-        <li class="nav-item">
-          <a class="relative z-20" href="#portfolio">Portfolio</a>
-        </li>
         <li
-          class="cursor-pointer ml-auto border-solid border border-black hover:bg-accent hover:text-white hover:border-accent transition-all dark:border-lightgrey dark:hover:border-accent dark:hover:text-black"
+          class="cursor-pointer ml-auto border-solid border border-black hover:bg-accent hover:text-white hover:border-accent transition-all dark:border-lightgrey dark:hover:border-accent dark:hover:text-black sm:mobile-download-btn"
         >
           <a class="inline-flex items-center gap-2 p-2">
             Download resume

@@ -5,6 +5,26 @@
 @tailwind utilities;
 
 @layer components {
+  .mobile-nav {
+    @apply absolute top-0 h-screen w-screen bg-accent flex-col items-end justify-end p-7 font-bold text-black text-xl gap-5 transition-all duration-300;
+  }
+
+  .desktop-nav {
+    @apply flex flex-row items-center gap-4 [&>*]:relative sm:[&>*]:ml-2 [&>*]:overflow-hidden;
+  }
+
+  .nav-link {
+    @apply relative z-20;
+  }
+
+  .mobile-download-btn {
+    @apply ml-0 bg-white border-solid border border-white;
+  }
+
+  .burger-icon-line {
+    @apply block absolute h-0.5 w-6 bg-current transform transition-all duration-300;
+  }
+
   .contacts-icon {
     @apply text-current fill-current w-7 h-7 z-10;
   }

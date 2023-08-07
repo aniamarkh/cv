@@ -8,7 +8,7 @@ const switchTheme = () => {
 
 <template>
   <button
-    class="flex items-center justify-center h-10 w-10 hover:text-accent transition-all duration-300"
+    class="flex items-center justify-center h-10 w-10 hover:text-accent sm:hover:text-white transition-all duration-300"
     @click="switchTheme"
   >
     <span aria-label="switch to dark mode" class="material-symbols-outlined">
