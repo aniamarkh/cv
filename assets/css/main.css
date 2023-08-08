@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .mobile-nav {
+    @apply absolute top-0 h-screen w-screen bg-accent flex-col items-end justify-end p-7 font-bold text-black text-xl gap-5 transition-all duration-300;
+  }
+
+  .desktop-nav {
+    @apply flex flex-row items-center gap-4 [&>*]:relative sm:[&>*]:ml-2 [&>*]:overflow-hidden;
+  }
+
+  .nav-link {
+    @apply relative z-20 md:text-sm sm:text-base;
+  }
+
+  .mobile-download-btn {
+    @apply ml-0 bg-white border-solid border border-white;
+  }
+
+  .burger-icon-line {
+    @apply block absolute h-0.5 w-6 bg-current transform transition-all duration-300;
+  }
+
+  .contacts-icon {
+    @apply text-current fill-current w-7 h-7 z-10;
+  }
+
+  .title {
+    @apply bg-accent font-bold w-fit p-1 text-base mb-2 inline-flex gap-2 dark:text-black;
+  }
+
+  .screenshot {
+    @apply shadow-md w-full transition-all;
+  }
+
+  .text-link {
+    @apply font-bold inline-flex items-center hover:text-white gap-2 sm:gap-1;
+  }
+
+  .primary-skill {
+    @apply font-bold;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  @apply bg-lightgrey dark:bg-grey;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #575757;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #383838;
+}
