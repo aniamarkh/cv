@@ -26,9 +26,9 @@ const skills = [
 
 <template>
   <div class="flex flex-col gap-3">
-    <h1 class="title text-xl">
+    <h1 class="title text-xl mt-14">
       <span class="material-symbols-outlined text-xl" aria-hidden="true"> construction </span>
-      My skills:
+      My skills
     </h1>
     <Transition>
       <ul class="flex flex-row flex-wrap gap-x-4 gap-y-2">

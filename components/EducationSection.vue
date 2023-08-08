@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col gap-3">
-    <h1 class="title">
-      <span class="material-symbols-outlined text-base" aria-hidden="true"> school </span>Education:
+    <h1 class="title text-xl">
+      <span class="material-symbols-outlined text-xl" aria-hidden="true"> school </span>Education
     </h1>
     <div class="flex flex-col gap-1">
       <h2 class="font-bold">RS School</h2>
@@ -13,7 +13,7 @@
           >JavaScript/Front-end Course, 2022</a
         >
       </h3>
-      <p class="text-sm text-justify">
+      <p class="text-sm">
         Self-study, webinars, cross-checks, mentor-guided projects, including a team project.
       </p>
     </div>
@@ -24,7 +24,7 @@
       <h3 class="bg-lightgrey dark:bg-mediumgrey dark:font-bold text-sm w-fit">
         Bachelor's degree in Civil Engineering, 2014-2018
       </h3>
-      <p class="text-sm text-justify">
+      <p class="text-sm">
         Analytical thinking, problem-solving, and attention to detail were essential in my
         engineering studies.
       </p>

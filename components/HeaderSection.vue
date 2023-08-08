@@ -7,18 +7,13 @@ const navItems = [
     isHiddenOnDesktop: false,
   },
   {
-    title: 'Skills',
-    href: '#skills',
-    isHiddenOnDesktop: true,
-  },
-  {
-    title: 'Experience',
-    href: '#experience',
-    isHiddenOnDesktop: true,
-  },
-  {
-    title: 'Portfolio',
+    title: 'Recent projects',
     href: '#portfolio',
+    isHiddenOnDesktop: false,
+  },
+  {
+    title: 'Skills & Experience',
+    href: '#skills',
     isHiddenOnDesktop: false,
   },
 ];

@@ -47,9 +47,9 @@ const portfolioItems = [
 
 <template>
   <div id="portfolio" class="flex flex-col gap-2">
-    <h1 class="title text-xl mb-5">
-      <span class="material-symbols-outlined text-xl" aria-hidden="true"> construction </span
-      >Portfolio
+    <h1 class="title text-xl mb-5 mt-14">
+      <span class="material-symbols-outlined text-xl" aria-hidden="true"> construction </span>Recent
+      projects
     </h1>
     <div class="grid grid-cols-2 md:grid-cols-1 gap-6">
       <PortfolioItem

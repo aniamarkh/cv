@@ -42,11 +42,7 @@
   }
 
   .primary-skill {
-    @apply bg-accent font-bold dark:text-black px-1;
-  }
-
-  .skill {
-    @apply bg-lightgrey dark:bg-darkgrey md:font-bold;
+    @apply font-bold;
   }
 }
 
