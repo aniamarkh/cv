@@ -12,7 +12,7 @@ const copyToClipboard = () => {
 };
 </script>
 <template>
-  <div class="inline-flex gap-2 h-3 items-center" @click="copyToClipboard">
+  <div class="min-w-[280px] inline-flex gap-2 h-3 items-center" @click="copyToClipboard">
     <p class="cursor-pointer text-lg font-bold hover:text-accent transition-all duration-300">
       {{ content }}
     </p>
