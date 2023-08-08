@@ -1,7 +1,9 @@
 <script setup lang="ts">
 const colorMode = useColorMode();
-
+const props = defineProps<{ isNavOpen: boolean }>();
+const emit = defineEmits(['toggle']);
 const switchTheme = () => {
+  props.isNavOpen && emit('toggle');
   colorMode.value === 'light' ? (colorMode.preference = 'dark') : (colorMode.preference = 'light');
 };
 </script>

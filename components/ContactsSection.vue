@@ -29,7 +29,7 @@
         />
       </svg>
     </ContactLink>
-    <ContactLink href="mailto:aniamark@gmail.com?subject=Hi, Anna!" label="E-mail">
+    <ContactLink href="mailto:aniamarkh@gmail.com?subject=Hi, Anna!" label="E-mail">
       <svg class="contacts-icon" viewBox="0 0 8 6">
         <path d="m0 0h8v6h-8zm.75 .75v4.5h6.5v-4.5zM0 0l4 3 4-3v1l-4 3-4-3z" />
       </svg>

@@ -46,7 +46,7 @@ onMounted(() => {
         <li
           v-for="(item, index) in navItems"
           :key="index"
-          class="nav-item whitespace-nowrap font-bold sm:hover:text-white sm:block"
+          class="nav-item whitespace-nowrap font-bold sm:hover:text-white"
           @click="isNavOpen && toggleMobileNav()"
         >
           <a class="nav-link" :href="item.href">{{ item.title }}</a>
@@ -55,13 +55,13 @@ onMounted(() => {
         <li
           class="cursor-pointer ml-auto border-solid border border-black hover:bg-accent hover:text-white hover:border-accent transition-all dark:border-lightgrey dark:hover:border-accent dark:hover:text-black sm:mobile-download-btn"
         >
-          <a class="inline-flex items-center gap-2 p-2 md:text-sm sm:text-base font-bold">
+          <a class="inline-flex items-center gap-2 p-2 md:text-sm sm:text-xl font-bold">
             Download resume
             <span aria-hidden="true" class="material-symbols-outlined"> download </span>
           </a>
         </li>
         <li>
-          <ThemeSwitcher />
+          <ThemeSwitcher :is-nav-open="isNavOpen" @toggle="toggleMobileNav"/>
         </li>
       </ul>
     </nav>

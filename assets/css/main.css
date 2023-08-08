@@ -6,7 +6,7 @@
 
 @layer components {
   .mobile-nav {
-    @apply absolute top-0 h-screen w-screen bg-accent flex-col items-end justify-end p-7 font-bold text-black text-xl gap-5 transition-all duration-300;
+    @apply absolute top-0 h-screen w-screen bg-accent flex-col items-end justify-start px-7 pt-20 font-bold text-black gap-5 transition-all duration-300;
   }
 
   .desktop-nav {
@@ -14,7 +14,7 @@
   }
 
   .nav-link {
-    @apply relative z-20 md:text-sm sm:text-base;
+    @apply relative z-20 md:text-sm sm:text-xl;
   }
 
   .mobile-download-btn {
