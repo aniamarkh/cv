@@ -14,7 +14,7 @@
   }
 
   .nav-link {
-    @apply relative z-20;
+    @apply relative z-20 md:text-sm sm:text-base;
   }
 
   .mobile-download-btn {

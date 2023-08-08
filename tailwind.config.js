@@ -7,7 +7,7 @@ module.exports = {
     },
     screens: {
       md: { max: '910px' },
-      sm: { max: '575px' },
+      sm: { max: '700px' },
     },
     colors: {
       current: 'currentColor',

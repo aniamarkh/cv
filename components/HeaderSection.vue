@@ -4,17 +4,14 @@ const navItems = [
   {
     title: 'About me',
     href: '#about',
-    isHiddenOnDesktop: false,
   },
   {
     title: 'Recent projects',
     href: '#portfolio',
-    isHiddenOnDesktop: false,
   },
   {
     title: 'Skills & Experience',
     href: '#skills',
-    isHiddenOnDesktop: false,
   },
 ];
 
@@ -26,7 +23,7 @@ const toggleMobileNav = () => {
 };
 
 const mobileNavStyle = computed(() => {
-  return isNavOpen.value ? 'right: 0;' : 'right: -590px;';
+  return isNavOpen.value ? 'right: 0;' : 'right: -700px;';
 });
 
 const checkScreen = () => {
@@ -49,8 +46,7 @@ onMounted(() => {
         <li
           v-for="(item, index) in navItems"
           :key="index"
-          class="nav-item sm:hover:text-white sm:block"
-          :class="{ hidden: item.isHiddenOnDesktop }"
+          class="nav-item whitespace-nowrap sm:hover:text-white sm:block"
           @click="isNavOpen && toggleMobileNav()"
         >
           <a class="nav-link" :href="item.href">{{ item.title }}</a>
@@ -59,7 +55,7 @@ onMounted(() => {
         <li
           class="cursor-pointer ml-auto border-solid border border-black hover:bg-accent hover:text-white hover:border-accent transition-all dark:border-lightgrey dark:hover:border-accent dark:hover:text-black sm:mobile-download-btn"
         >
-          <a class="inline-flex items-center gap-2 p-2">
+          <a class="inline-flex items-center gap-2 p-2 md:text-sm sm:text-base">
             Download resume
             <span aria-hidden="true" class="material-symbols-outlined"> download </span>
           </a>
