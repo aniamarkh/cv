@@ -34,7 +34,7 @@
   }
 
   .screenshot {
-    @apply shadow-md grayscale w-full group-hover:grayscale-0 transition-all;
+    @apply shadow-md w-full transition-all;
   }
 
   .text-link {

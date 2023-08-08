@@ -2,7 +2,7 @@
 const colorMode = useColorMode();
 
 const switchTheme = () => {
-  colorMode.value === 'light' ? (colorMode.value = 'dark') : (colorMode.value = 'light');
+  colorMode.value === 'light' ? (colorMode.preference = 'dark') : (colorMode.preference = 'light');
 };
 </script>
 
