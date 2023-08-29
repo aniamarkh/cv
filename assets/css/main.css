@@ -34,7 +34,7 @@
   }
 
   .screenshot {
-    @apply shadow-md w-full transition-all;
+    @apply shadow-md w-1/2 h-fit transition-all sm:w-full;
   }
 
   .text-link {
