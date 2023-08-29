@@ -13,10 +13,6 @@
         product.
       </p>
       <ContactsSection />
-      <!-- <p class="inline-flex gap-1 -mx-1 sm:mt-2">
-        <span class="material-symbols-outlined"> location_on </span
-        ><span class="font-bold">Istanbul,</span>Turkey
-      </p> -->
     </div>
   </div>
 </template>
