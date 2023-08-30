@@ -18,7 +18,7 @@ const portfolioItems = [
   },
   {
     title: 'Kanban Board',
-    desc: 'Demonstrates my skills in working with state managers, as well as handling forms and their validation.',
+    desc: 'Single-board Kanban system with drag-and-drop features. Demonstrates my skills in working with state managers, as well as handling forms and their validation.',
     built: 'Vue 3 & TS, SCSS, Pinia, drag&drop, Vitest & Vue Testing Utils',
     repo: 'https://github.com/aniamarkh/kanban-board',
     deploy: 'https://kanban-aniamarkh.vercel.app/',
@@ -26,7 +26,7 @@ const portfolioItems = [
   },
   {
     title: 'Movie App',
-    desc: `Project created during the RS School React course: demonstrates basic knowledge of React and its ecosystem. Allows users to search for movies using the themoviedb API. It also features a validated form page.`,
+    desc: `Demonstrates basic knowledge of React and its ecosystem. Allows users to search for movies using the themoviedb API. It also features a validated form page.`,
     built: 'React, Vite, Vitest, React Redux, React Router and React Hook Form',
     repo: 'https://github.com/aniamarkh/rsschool-react',
     deploy: 'https://rsschool-react-coral.vercel.app/',
@@ -41,12 +41,12 @@ const portfolioItems = [
     screenshot: 'bookmarks.png',
   },
   {
-    title: 'Kettle Control Station',
+    title: 'Kettle Remote Control',
     desc: `An app that allows my friend to remotely control his kettle through a web interface after authorization, it connects to the kettle's retrofitted microcontroller via WebSocket. A Node.js server has been implemented for demonstration purposes.`,
     built: 'Vue 3 & TS, Node.js, SCSS, Websocket',
     repo: 'https://github.com/aniamarkh/kettle-station',
     deploy: 'https://kettle-station.vercel.app/',
-    screenshot: 'kettle.png',
+    screenshot: 'kettle.jpg',
   },
   {
     title: 'RS Lang',
