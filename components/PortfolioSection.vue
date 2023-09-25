@@ -32,14 +32,14 @@ const portfolioItems = [
     deploy: 'https://kanban-aniamarkh.vercel.app/',
     screenshot: 'kanban.png',
   },
-  {
-    title: 'Movie App',
-    desc: `Demonstrates basic knowledge of React and its ecosystem. Allows users to search for movies using the themoviedb API. It also features a validated form page.`,
-    built: 'React, Vite, Vitest, React Redux, React Router and React Hook Form',
-    repo: 'https://github.com/aniamarkh/rsschool-react',
-    deploy: 'https://rsschool-react-coral.vercel.app/',
-    screenshot: 'movie.png',
-  },
+  // {
+  //   title: 'Movie App',
+  //   desc: `Demonstrates basic knowledge of React and its ecosystem. Allows users to search for movies using the themoviedb API. It also features a validated form page.`,
+  //   built: 'React, Vite, Vitest, React Redux, React Router and React Hook Form',
+  //   repo: 'https://github.com/aniamarkh/rsschool-react',
+  //   deploy: 'https://rsschool-react-coral.vercel.app/',
+  //   screenshot: 'movie.png',
+  // },
   {
     title: "'Other bookmarks' Manager",
     desc: 'Drag-and-drop manager for the Other Bookmarks folder in Chrome New Tab with a custom theme and full data synchronization through the Chrome API.',
@@ -56,14 +56,14 @@ const portfolioItems = [
     deploy: 'https://kettle-station.vercel.app/',
     screenshot: 'kettle.jpg',
   },
-  {
-    title: 'RS Lang',
-    desc: 'RS School course final team-project: an app for learning foreign words with an electronic textbook, mini-games and a statistics page to track progress.',
-    built: 'TS and Chart.js',
-    repo: 'https://github.com/aniamarkh/rslang',
-    deploy: 'https://rslang-aniamarkh.vercel.app/',
-    screenshot: 'lang.png',
-  },
+  // {
+  //   title: 'RS Lang',
+  //   desc: 'RS School course final team-project: an app for learning foreign words with an electronic textbook, mini-games and a statistics page to track progress.',
+  //   built: 'TS and Chart.js',
+  //   repo: 'https://github.com/aniamarkh/rslang',
+  //   deploy: 'https://rslang-aniamarkh.vercel.app/',
+  //   screenshot: 'lang.png',
+  // },
 ];
 </script>
 
