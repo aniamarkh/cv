@@ -2,15 +2,23 @@
 const portfolioItems = [
   {
     title: 'Positivus Landing',
-    desc: 'An example of an adaptive and accessible pixel-perfect landing page, demonstrating my attention to detail and knowledge of  HTML and modern CSS layout.',
+    desc: 'An example of an adaptive and accessible pixel-perfect landing page, demonstrating my attention to detail and knowledge of  HTML and modern CSS development.',
     built: 'Vue 3, Vite and SCSS',
     repo: 'https://github.com/aniamarkh/positivus-landing',
     deploy: 'https://positivus-landing-aniamarkh.vercel.app/',
     screenshot: 'positivus.png',
   },
   {
+    title: 'WYSIWYG editor',
+    desc: 'A Vue-based WYSIWYG editor. Features include editable text, edit history navigation, text formatting, image insertion via URL, and HTML copy to clipboard. And some research in README.md %)',
+    built: 'Vue, TipTap library',
+    repo: 'https://github.com/aniamarkh/editor-wysiwyg',
+    deploy: 'https://editor-wysiwyg.vercel.app/',
+    screenshot: 'editor.png',
+  },
+  {
     title: 'Weather App',
-    desc: 'An SPA that demonstrates my skills in working with REST API and asynchronous operations, developed with a mobile-first approach, accessible.',
+    desc: 'Classic weather app that demonstrates my skills in working with REST API and asynchronous operations, developed with a mobile-first approach, accessible.',
     built: 'Vue 3 & TS, Vite, SCSS, Vuex and ECharts',
     repo: 'https://github.com/aniamarkh/weather-forecast',
     deploy: 'https://weather-forecast-aniamarkh.vercel.app/',

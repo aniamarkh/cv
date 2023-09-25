@@ -9,11 +9,17 @@
         <b>Kryptex</b>, Nov 2022 — present, part-time
       </h3>
       <p class="text-sm">
-        Developed pixel-perfect and responsive email templates from Figma designs using MJML.
+        Developed adaptive layouts using Tailwind and SCSS, closely collaborating with designers.
       </p>
-      <p class="text-sm">Refactor Nuxt components and write their styles using tailwind.</p>
       <p class="text-sm">
-        Participated in the integration of the ECharts library for data visualization.
+        Built interface components with Nuxt.js and Vue.js as well as Django templates.
+      </p>
+      <p class="text-sm">
+        Integrated the ECharts library for data visualization from the backend in the user's
+        personal dashboard.
+      </p>
+      <p class="text-sm">
+        Developed pixel-perfect and responsive email templates from Figma designs using MJML
       </p>
     </div>
   </div>
